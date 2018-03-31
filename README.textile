@@ -1,0 +1,22 @@
+h1. report-hamster
+
+report-hamster generate interactive and standalone report in html+javascript. New report is first generated from PHP then new reports can be generated from it-self.
+This repository aim to be a replacement to flask-hamster.
+
+!http://i.imgur.com/B1dZX7V.png!
+
+!http://i.imgur.com/nvS1d4E.png!
+
+h1. Installing
+
+For webserver use, Just copy all files under some webroot folder then edit the config.php file to set the hamster's database location.
+
+For CLI use: php cli.php
+
+For dev : In config.php if you set the constant DEV to true. the webserver version will use files in /src/ instead of report.html
+
+h1. Bugs
+
+   Plz report bug on github.
+   If you have a pull request where you like totally add cool stuff, then i'm all for it!
+   I18N is also welcome.

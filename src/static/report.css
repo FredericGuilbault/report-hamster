@@ -1,0 +1,116 @@
+header{
+    padding-top: 25px;
+}
+
+
+
+
+
+#date_range_box{
+    margin:5px;
+}
+
+
+
+
+
+hr {
+    margin:0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom:8px;
+}
+
+
+.catname{
+    padding-top:15px;
+    text-align: center;
+}
+
+
+.text-right{
+    text-align: right;
+    overflow:hidden;
+}
+
+
+.text-left{
+    text-align: left;
+    border-left: 6px solid #aaa;
+    padding-left:9px;
+    overflow:hidden;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.cat_name:hover{
+    font-weight: bold;
+    cursor: default;
+    color:darkred;
+}
+
+
+
+
+
+.panel-heading {
+    cursor: pointer;
+}
+
+
+
+#accordion .collapsing, #accordion .collapse.in
+{
+    position: absolute !important;
+    z-index: 20;
+    width: auto;
+    overflow:visible;
+    background-color:#fff;
+    border:1px solid #ddd;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+.disabled{
+
+    color:silver;
+
+}
+
+
+#tags-div .label {
+    margin-left:5px
+
+}
+
+
+.gray{
+
+
+background-color: silver;
+
+
+}
+
+
+.graph{
+    background-color: royalblue;
+    text-align: center;
+    border-radius: 2px;
+}
+
+
+#stats-sessionLength, #stats-sessionLength td  {
+    vertical-align: bottom !important;
+text-align: center;
+
+
+}
+#stats-sessionLength td  {
+    width: 48px;
+
+}
+
